@@ -1,0 +1,16 @@
+[
+    {
+        "data_path": "https://eaomstorage.blob.core.windows.net/dynamic/page_089.md",
+        "location": "'westus2", 
+        "subscription_id": "06775f60-c23d-426e-8832-388aa52d73ba",
+        "resource_group": "jason-eaom-manual",
+        "search_service_name": "eaom-manual-search",
+        "index_name": "dynamic-idx",
+        "chunk_size": 64, 
+        "token_overlap": 128,
+        "semantic_config_name": "default",
+        "language": "en",
+        "vector_config_name": "default",
+        "embedding_model_endpoint": "https://jason-eaom-manual-openai.openai.azure.com/openai/deployments/manual_ada_002/embeddings?api-version=2023-06-01-preview"
+    }
+]
